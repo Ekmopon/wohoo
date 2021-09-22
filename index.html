@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
     <style>
-        body {
-  background: url("bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+@media (max-width: 480px) {
+    body {
+    background-image: url("bg_alt_3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+}
+@media (max-width: 3840px) {
+    body {
+    background-image: url("bg_alt_2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
 }
 
 h1 {

@@ -1,3 +1,10 @@
+.main{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
 h1 {
   color: white;
   font-family: "Fredoka One",sans-serif;
@@ -21,10 +28,6 @@ p {
     background-size: contain;
     background-position: center;
     }
-    h1{
-        padding-top: 5px;
-        text-align: center;
-    }
 }
 @media (min-width: 1291px) {
     body {
@@ -33,18 +36,5 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    }
-    h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    }
-    p{
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     }
 }
